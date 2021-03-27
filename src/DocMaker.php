@@ -1,6 +1,6 @@
 <?php
 
-namespace SoftDD\RequestLog;
+namespace SoftDD\DocMarker;
 
 use function OpenApi\scan;
 

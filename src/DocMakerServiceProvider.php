@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SoftDD\RequestLog;
+namespace SoftDD\DocMarker;
 
 
 use Illuminate\Support\ServiceProvider;
