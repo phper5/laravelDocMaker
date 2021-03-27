@@ -1,6 +1,6 @@
 <?php
 
-namespace SoftDD\DocMarker;
+namespace SoftDD\DocMaker;
 
 use function OpenApi\scan;
 

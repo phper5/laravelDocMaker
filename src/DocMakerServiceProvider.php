@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SoftDD\DocMarker;
+namespace SoftDD\DocMaker;
 
 
 use Illuminate\Support\ServiceProvider;
