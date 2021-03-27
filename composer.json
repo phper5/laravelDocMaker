@@ -1,0 +1,31 @@
+{
+    "name": "softdd/docmaker",
+    "description": "自动生成openapi文档",
+    "keywords": ["swagger", "open api 3.0", "softdd"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "diandisoft",
+            "email": "coder5@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SoftDD\\DocMarker\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "zircote/swagger-php": "^3.1",
+        "laravel/framework": "^7|^8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SoftDD\\DocMarker\\DocMarkerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
